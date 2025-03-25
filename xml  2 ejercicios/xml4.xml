@@ -1,0 +1,48 @@
+<!--
+Nombre: Carlos Gil
+Curso: Asir 1
+Fecha: 25/03/2025
+Ejercicio: Gestión de alumnos del módulo de Lenguajes de Marcas
+-->
+
+<!-- Información del módulo de Lenguajes de Marcas -->
+<modulo>
+    <nombre>Lenguajes de Marcas</nombre>
+    <horas-semanales>4</horas-semanales>
+    <caracter>obligatorio</caracter>
+    <fecha-inicio>2023-09-15</fecha-inicio>
+    <fecha-fin>2024-06-22</fecha-fin>
+
+    <!-- Lista de alumnos matriculados -->
+    <alumnos>
+        <!-- Alumna 1 -->
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <dni>51623487V</dni>
+            <telefono>666544566</telefono>
+            <email>anafernandez@gmail.com</email>
+            <direccion>
+                <calle>C/ Amatista, 14</calle>
+                <codigo-postal>28905</codigo-postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+        </alumno>
+
+        <!-- Alumno 2 -->
+        <alumno>
+            <nombre>Carlos López Sánchez</nombre>
+            <dni>52369874B</dni>
+            <telefono>666455477</telefono>
+            <email>carloslopez@gmail.com</email>
+            <direccion>
+                <calle>C/ Ópalo, 15</calle>
+                <codigo-postal>28905</codigo-postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <nota>apto</nota>
+            <faltas>0</faltas>
+        </alumno>
+    </alumnos>
+</modulo>
